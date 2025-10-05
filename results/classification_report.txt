@@ -1,0 +1,29 @@
+LOAN APPROVAL PREDICTION - FINAL MODEL PERFORMANCE
+============================================================
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Rejected       0.98      0.95      0.97       130
+    Approved       0.91      0.97      0.94        60
+
+    accuracy                           0.96       190
+   macro avg       0.95      0.96      0.95       190
+weighted avg       0.96      0.96      0.96       190
+
+
+ROC AUC Score: 0.985256
+Accuracy: 0.957895
+
+Best Hyperparameters:
+  clf__subsample: 1.0
+  clf__n_estimators: 200
+  clf__max_depth: 5
+  clf__learning_rate: 0.1
+  clf__colsample_bytree: 1.0
+
+
+Top 3 Features:
+  1. Credit_Score: 0.2824
+  2. DTI_Ratio: 0.2015
+  3. Applicant_Income: 0.0177

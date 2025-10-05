@@ -1,0 +1,4 @@
+Rank,Feature,Importance Score
+1,Credit_Score,0.2823589743589744
+2,DTI_Ratio,0.2015384615384616
+3,Applicant_Income,0.017717948717948784
